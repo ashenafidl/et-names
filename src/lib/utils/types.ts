@@ -1,4 +1,4 @@
-import { Name, User } from "@prisma/client";
+import type { Name, User } from "../../../prisma/generated/models";
 
 export type NameWithNicknames = Name & {
   nicknames: {
