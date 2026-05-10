@@ -2,7 +2,7 @@
 
 import { addNameFormSchema } from "@/components/submit-name-form";
 import { prisma } from "@/lib/db/prisma";
-import { PrismaClientKnownRequestError } from "@prisma/client/runtime/library";
+import { PrismaClientKnownRequestError } from "../../../prisma/generated/internal/prismaNamespace";
 import { User } from "better-auth";
 import * as z from "zod";
 
